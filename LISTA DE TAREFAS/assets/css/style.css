@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root{
+    --font-padrao:'Roboto';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/3.jpg);
+    background-position: top;
+    background-size: cover;
+    max-width: 1200px;
+    margin: auto;
+    font-family: var(--font-padrao);
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+/*----------------------------------------Adicona Tarefas---------------------------------------------*/
+.app_tarefas{
+    width: 60vw;
+    border: 5px solid #000;
+    border-radius: 20px;
+    background-image: url(../images/1.1.jpg);
+    background-size: cover;
+}
+.header_tarefas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.new_tarefa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.new_tarefa img{
+    width: 30px;
+    margin-left:20px;
+    cursor: pointer;
+}
+.new_tarefa img:hover{
+    opacity: 0.7;
+}
+.new_tarefa input{
+    box-sizing: content-box;
+    width: 79%;
+    padding: 5px 2px 5px 5px;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.new_tarefa input:focus{
+    border:2px solid #000;
+}
+/*--------------------------------------Listagem das Tarefas------------------------------------------*/
+.body_tarefas{
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+}
+.body_tarefas li{
+    margin-left: 25px;
+}
+.tarefas{
+    padding-top: 15px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #999;
+    display: flex;
+    align-items: baseline;
+}
+.tarefa_texto{
+    margin:0px 5px 0px 5px;
+    flex:1;
+    font-size: 18px;
+}
+.div_remover img{
+    width: 20px;
+    cursor: pointer;
+}
+.div_remover img:hover{
+    opacity: 0.7;
+}
+.tarefa_feita{
+    text-decoration: line-through;
+}

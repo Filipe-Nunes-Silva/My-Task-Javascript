@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+body{
+        font-family: monospace;
+        background-image: linear-gradient(to left,#F26419,#346BC8);      
+}
+h1 {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+}
+.cabecario{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+}
+main {  width: 70%;
+        background-color:whitesmoke ;
+        margin: auto;
+        border-radius: 20px;
+        
+   
+}
+
+#txttarefas{
+        width: 70%;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-size: 11pt;
+        display: inline-block;   
+        box-sizing: border-box;
+}
+#txttarefas:focus { 
+        outline: 1px solid #119494; }
+
+#adc {
+        background-color:white;
+        border: 1px solid #7cfc00;
+        border-radius: 5px;
+        padding: 8px;
+}
+#adc:hover{
+        background-color: #7cfc00;
+}
+#rmv{
+        background-color:white;
+        border: 1px solid #bb1b1b;
+        border-radius: 5px;
+        padding: 8px;
+}
+#rmv:hover{
+        background-color: #bb1b1b;
+}
+#lista{ list-style: none;
+        display: inline-block;
+        padding: 0;
+}
+
+.botoes{    
+        display: inline-block;
+        margin-left: 10px;  
+}
+
+#listaTarefas{  
+        margin: 0;
+        /* padding: 0; */
+}
+
+#listaTarefas > li {
+        padding-bottom: 20px;
+        
+}
+
+.apagar{
+        margin-left: 30px;
+}
+
