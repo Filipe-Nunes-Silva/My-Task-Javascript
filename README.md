@@ -8,3 +8,8 @@
 -Javascript
 
 ![Imagem do projeto funcionando](./img.png)
+
+## Iniciando o projeto:
+  - Esse projeto é feito em Html/Css e Javascript puro, então se você baixar basta apenas abrir a pagina index.html e tudo funciona!
+
+ 
